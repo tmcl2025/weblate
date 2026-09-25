@@ -23,10 +23,15 @@
   "waitFor": "postCreateCommand",
   "shutdownAction": "stopCompose",
   "overrideCommand": false,
-  "updateRemoteUserUID": false, 
+  "updateRemoteUserUID": false,
   "features": {
     "ghcr.io/devcontainers/features/sshd:1": {
-        "version": "latest"
+      "version": "latest"
     }
-}
+  },
+  "hostRequirements": {
+    "cpus": 8,
+    "memory": "8gb",
+    "storage": "32gb"
+  }
 }
