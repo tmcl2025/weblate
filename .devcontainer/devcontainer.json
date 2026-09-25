@@ -23,5 +23,10 @@
   "waitFor": "postCreateCommand",
   "shutdownAction": "stopCompose",
   "overrideCommand": false,
-  "updateRemoteUserUID": false
+  "updateRemoteUserUID": false, 
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+}
 }
