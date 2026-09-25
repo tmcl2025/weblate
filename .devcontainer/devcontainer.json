@@ -28,10 +28,5 @@
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
     }
-  },
-  "hostRequirements": {
-    "cpus": 8,
-    "memory": "8gb",
-    "storage": "32gb"
   }
 }
