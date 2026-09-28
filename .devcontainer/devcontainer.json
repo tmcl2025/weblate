@@ -10,7 +10,7 @@
     "database",
     "cache"
   ],
-  "workspaceFolder": "${localWorkspaceFolder",
+  "workspaceFolder": "${localWorkspaceFolder}",
   "initializeCommand": [
     "python3",
     "${localWorkspaceFolder}/.devcontainer/environment.py",
